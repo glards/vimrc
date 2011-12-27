@@ -40,7 +40,19 @@ set laststatus=2
 set wrap
 set linebreak
 
+let mapleader = ","
+
 syntax on
+
+" Custom mappings
+nmap <F12> :NERDTreeToggle<CR>
+nmap <Leader>v :source $MYVIMRC<CR>
+
+" Fix keycodes for GNU screen
+map ^[[1~ <Home>
+map ^[[4~ <End>
+imap ^[[1~ <Home>
+imap ^[[4~ <End>
 
 " Paste toggle
 nnoremap <F2> :set invpaste paste?<CR>
@@ -80,4 +92,8 @@ set statusline+=)
 " Line and column position and counts.
 set statusline+=\ (line\ %l\/%L,\ col\ %03c)
 
+" MiniBufExpl configuration
+let g:miniBufExplMapWindowNav = 1
+let g:miniBufExplMapCTabSwitchBufs = 1
+"let g:miniBufExplMapCTabSwitchWindows = 1
 
