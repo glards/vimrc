@@ -92,8 +92,3 @@ set statusline+=)
 " Line and column position and counts.
 set statusline+=\ (line\ %l\/%L,\ col\ %03c)
 
-" MiniBufExpl configuration
-let g:miniBufExplMapWindowNav = 1
-let g:miniBufExplMapCTabSwitchBufs = 1
-"let g:miniBufExplMapCTabSwitchWindows = 1
-
