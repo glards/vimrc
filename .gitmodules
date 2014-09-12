@@ -15,7 +15,7 @@
 	url = https://github.com/sontek/minibufexpl.vim.git
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
-	url = https://github.com/vim-scripts/The-NERD-tree.git
+  url = https://github.com/vim-scripts/The-NERD-tree.git
 [submodule "bundle/rails"]
 	path = bundle/rails
 	url = https://github.com/tpope/vim-rails.git
